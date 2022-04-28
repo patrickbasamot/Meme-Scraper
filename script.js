@@ -14,6 +14,7 @@ subreddit.forEach(btn =>{
     })
 })
 
+console.log('hello');
 
 
 async function fetchMeme(redditMemeWebScraper){
