@@ -14,14 +14,9 @@ subreddit.forEach(btn =>{
     })
 })
 
-console.log('hello');
-
-
 async function fetchMeme(redditMemeWebScraper){
-    
         let response = await fetch(redditMemeWebScraper);
         let data = await response.json();
-        console.log(data);
         renderData(data);
 }
 
