@@ -30,4 +30,4 @@ async function fetchMeme(redditMemeWebScraper){
          console.log(strUlr);
       })
     }
-
+paste mo lng datong content it script.js sa atong gdrive 
